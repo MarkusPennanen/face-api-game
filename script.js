@@ -66,7 +66,7 @@ function newPosition(){ /* Reposition the item on screen */
       localStorage.points = Number(localStorage.points)+1
       document.getElementById("points").innerHTML = "Points: " + localStorage.points
     } else {
-      localStorage.points = 0;
+      localStorage.points = 1;
       document.getElementById("points").innerHTML = "Points: " + localStorage.points
     }
   } else {
