@@ -1,1 +1,3 @@
-# Facial detection game using [face-api.js](https://github.com/justadudewhohacks/face-api.js)
+## Facial detection game using [face-api.js](https://github.com/justadudewhohacks/face-api.js)
+
+### Live demo
