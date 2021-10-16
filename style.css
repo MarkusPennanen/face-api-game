@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(61, 61, 67);
   }
 
   canvas {
@@ -22,33 +22,49 @@ body {
   position: absolute;
 }
 
-button {
+#setDraw {
   position: absolute;
-  left: 42%;
-  top: 80%;
+  left: 1%;
+  top: 1%;
   border: none;
   border-radius: 10px;
   padding: 1%;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
+  background-color: rgb(119, 44, 232);
+  color:white;
+  font-style: bold;
+  font-weight: bold;
 }
 
-button:hover {
-  background-color: lightgrey;
+#setDraw:hover {
+  background-color: rgb(113, 34, 231);
   border: none;
 }
+
+#setDraw:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
 
 h1 {
   position: absolute;
   top: 1%;
   color: white;
-  font-size: 2vmin;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 1.5vmin;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 #points {
   position: absolute;
   top: 15%;
   color: white;
-  font-size: 4vmin;
+  font-size: 3vmin;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#video {
+  border-radius: 20px;
 }
